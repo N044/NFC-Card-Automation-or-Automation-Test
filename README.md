@@ -46,4 +46,4 @@ smart card interface through the `pyscard` Python library.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mikroskil-nfc-card-reader.git
+git clone https://github.com/N044/NFC-Card-Automation-or-Automation-Test
