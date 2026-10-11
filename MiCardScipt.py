@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # 1. INISIALISASI BROWSER
 driver = webdriver.Chrome()
-URL_WEBSITE = "https://new-mika-pegawai.mikroskil.ac.id/bka/micard?stambuk=2026"
+URL_WEBSITE = "https://url-website"
 driver.get(URL_WEBSITE)
 
 print("=====================================================")
@@ -19,7 +19,7 @@ input("TEKAN ENTER DI SINI UNTUK MEMULAI OTOMATISASI...")
 print("=====================================================\n")
 
 # 2. BACA CSV
-file_csv = 'C:/Users/Staff BKA/Downloads/MiCard/data_mahasiswa_2026.csv'
+file_csv = 'C:/Users/CSV-location'
 
 with open(file_csv, mode='r', encoding='utf-8-sig') as file:
     baris_pertama = file.readline()
